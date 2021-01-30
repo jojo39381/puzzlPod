@@ -1,0 +1,6 @@
+framework module puzzlPod {
+  umbrella header "puzzlPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
