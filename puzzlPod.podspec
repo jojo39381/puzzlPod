@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'puzzlPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This is the onboarding process sdk for puzzl'
 
 # This description is used to generate tags and improve search results.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.swift_version = '4.1'
   s.description      = "this is the onboarding process sdk for puzzl. implement payroll."
 
   s.homepage         = 'https://github.com/jojo39381/puzzlPod'
@@ -26,6 +26,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/jojo39381/puzzlPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+#  s.ios.framework = "UIKit"
+#  s.ios.framework = "Foundation"
+#  s.dependency 'Alamofire', '~> 4.9.0'
+#  s.dependency 'VeriffSDK'
+#  s.dependency 'Eureka'
+#  s.dependency 'TTTAttributedLabel'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'puzzlPod/Classes/**/*'
